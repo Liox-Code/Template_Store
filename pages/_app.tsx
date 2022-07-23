@@ -2,6 +2,9 @@ import React from 'react'
 import { AppProps } from 'next/app'
 import { createGlobalStyle } from 'styled-components'
 
+// Components
+import Layout from '../components/Layout'
+
 const GlobalStyle = createGlobalStyle`
     *{
         box-sizing: border-box;
@@ -20,10 +23,10 @@ const GlobalStyle = createGlobalStyle`
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <>
-      <GlobalStyle />
+    <Layout>
       <Component {...pageProps} />
-    </>
+      <GlobalStyle />
+    </Layout>
   )
 }
 
