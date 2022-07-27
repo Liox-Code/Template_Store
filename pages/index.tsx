@@ -1,7 +1,21 @@
 import React from 'react'
 
+// Components
+import ItemsList from '../components/ItemsList'
+import Item from '../components/Item'
+
 const index = () => {
-  return <h1>INDEX</h1>
+  return (
+    <ItemsList title="Lista Productos">
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+    </ItemsList>
+  )
 }
 
 export default index
