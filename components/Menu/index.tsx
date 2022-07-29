@@ -8,17 +8,25 @@ const Menu = () => {
   return (
     <S.Container>
       <Link href="/">
-        <S.NavLink>Home</S.NavLink>
+        <a>
+          <S.NavLink>Home</S.NavLink>
+        </a>
+      </Link>
+      {/* <Link href="/">
+        <a>
+          <S.NavLink>Catalog</S.NavLink>
+        </a>
       </Link>
       <Link href="/">
-        <S.NavLink>Catalog</S.NavLink>
+        <a>
+          <S.NavLink>About</S.NavLink>
+        </a>
       </Link>
       <Link href="/">
-        <S.NavLink>About</S.NavLink>
-      </Link>
-      <Link href="/">
-        <S.NavLink>Contact</S.NavLink>
-      </Link>
+        <a>
+          <S.NavLink>Contact</S.NavLink>
+        </a>
+      </Link> */}
     </S.Container>
   )
 }

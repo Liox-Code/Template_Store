@@ -5,13 +5,13 @@ import { createGlobalStyle } from 'styled-components'
 // Icons
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 // Components
 import Layout from '../components/Layout'
 
 config.autoAddCss = false
-library.add(faMagnifyingGlass)
+library.add(faBars, faMagnifyingGlass)
 
 const GlobalStyle = createGlobalStyle`
     *{

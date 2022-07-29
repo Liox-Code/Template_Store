@@ -11,7 +11,9 @@ const Footer = () => {
         <S.Title>Title</S.Title>
         <S.OptionsContainer>
           <Link href="/">
-            <S.OptionLine>Line</S.OptionLine>
+            <a>
+              <S.OptionLine>Line</S.OptionLine>
+            </a>
           </Link>
         </S.OptionsContainer>
       </S.SegmentContainer>

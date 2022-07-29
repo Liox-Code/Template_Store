@@ -2,9 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-// Components
-import Menu from '../Menu'
-
 // Styles
 import * as S from './styles'
 
@@ -12,18 +9,20 @@ const Navbar = () => {
   return (
     <S.Header>
       <S.Container>
-        <Link href="/">
-          <S.StartContainer>
-            <Image
-              src="/images/play-store.png"
-              alt="Web Page Icon"
-              width={36}
-              height={36}
-            />
-          </S.StartContainer>
-        </Link>
+        <S.StartContainer>
+          <S.Icon icon={['fas', 'bars']} />
+        </S.StartContainer>
         <S.CenterContainer>
-          <Menu />
+          <Link href="/">
+            <a>
+              <Image
+                src="/images/play-store.png"
+                alt="Web Page Icon"
+                width={36}
+                height={36}
+              />
+            </a>
+          </Link>
         </S.CenterContainer>
         <S.EndContainer>
           <S.Icon icon={['fas', 'magnifying-glass']} />

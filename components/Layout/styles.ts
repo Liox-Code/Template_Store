@@ -36,5 +36,5 @@ export const FooterContainer = styled.div`
 
 export const PaddingContainer = styled.div`
   height: 100%;
-  padding: 0 60px;
+  padding: 0 20px;
 `

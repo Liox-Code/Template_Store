@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: grid;
+  justify-items: center;
   grid-gap: 2rem;
 `
 
 export const Title = styled.h2`
-  font-size: var(--x5);
+  font-size: var(--x6);
   color: var(--primary-color);
 `
 

@@ -9,11 +9,6 @@ const index = () => {
     <ItemsList title="Lista Productos">
       <Item />
       <Item />
-      <Item />
-      <Item />
-      <Item />
-      <Item />
-      <Item />
     </ItemsList>
   )
 }

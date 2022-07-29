@@ -10,6 +10,7 @@ export const Header = styled.div`
 export const Container = styled.div`
   display: grid;
   justify-content: space-between;
+  grid-template-columns: max-content auto max-content;
   grid-auto-flow: column;
   grid-gap: 1rem;
   width: 100%;
@@ -36,8 +37,8 @@ export const EndContainer = styled.span`
 `
 
 export const Icon = styled(FontAwesomeIcon)`
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   color: var(--gray);
   cursor: pointer;
 `
